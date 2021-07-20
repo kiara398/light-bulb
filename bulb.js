@@ -9,9 +9,14 @@ const bulbLighting = {
       //the method
       methods: {
         tap: function(){
-          this.isLightOn = !this.isLightOn
+          this.isLightOn =true
+          this.isLightOff=false
+         
+        },
+        tapAgain: function(){
+          this.isLightOn =false
+          this.isLightOff=true
         }
-        
       }
     }
    

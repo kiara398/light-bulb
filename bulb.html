@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+    <link rel="stylesheet" href="bulb.css">
+</head>
+<body>
+ <h1>WINNIE'S LIGHT BULB</h1>
+<div id="app">
+    <div class="container">
+        <div class="lighton"  v-if="isLightOn">
+            <img src="bulbb.jpg" alt="lightbulb">
+        </div>
+        <div class="lightoff"  v-else-if="isLightOff">
+            <img src="black.jfif" alt="darkness"> 
+        </div>
+        
+        <br> <br>
+
+        <button v-on:click="tap">
+            SWITCH
+        </button>
+    </div>
+</div>
+
+<script src="vue.js"></script>
+<script src="bulb.js"></script>
+    
+</body>
+</html>

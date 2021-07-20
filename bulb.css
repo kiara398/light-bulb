@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+img{
+    height: 400px;
+    width: 50%;
+    margin: auto;
+}
+.container{
+    text-align: center;
+}
+button{
+    width: 400px;
+    padding: 15px;
+    font-size: 20px;
+}
+    

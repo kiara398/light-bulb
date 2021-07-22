@@ -2,20 +2,15 @@ const bulbLighting = {
     data() {
       return { 
         isLightOn:false,
-        isLightOff:true,
          
       }
       }, 
       //the method
       methods: {
         tap: function(){
-          this.isLightOn =true
-          this.isLightOff=false
+          this.isLightOn = !this.isLightOn
          
-        },
-        tapAgain: function(){
-          this.isLightOn =false
-          this.isLightOff=true
+         
         }
       }
     }
